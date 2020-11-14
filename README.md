@@ -19,6 +19,10 @@ video: https://www.youtube.com/watch?v=Yg7p70wOER4
 
 ## env
 * python libraries -> requirements.txt
+  * glumpy
+  * pycuda
+  * torch
+  * etc...
 * packages
   * nvidia-driver-450
   * cuda-cuda-toolkit-10-2
