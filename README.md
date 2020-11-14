@@ -1,5 +1,6 @@
 # wave_simulation
 wave simulation and visualization with python
+
 video: https://www.youtube.com/watch?v=Yg7p70wOER4
 
 ## usage
