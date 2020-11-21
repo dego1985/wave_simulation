@@ -1,7 +1,9 @@
 # wave_simulation
 wave simulation and visualization with python
 
-video: https://www.youtube.com/watch?v=Yg7p70wOER4
+video:
+ * sim1: https://www.youtube.com/watch?v=Yg7p70wOER4
+ * sim2: https://www.youtube.com/watch?v=MWfgh1KlJ7k
 
 ## usage
 * run
