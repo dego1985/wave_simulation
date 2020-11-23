@@ -4,6 +4,8 @@ wave simulation and visualization with python
 video:
  * sim1: https://www.youtube.com/watch?v=Yg7p70wOER4
  * sim2: https://www.youtube.com/watch?v=MWfgh1KlJ7k
+ * sim3: https://youtu.be/MGHZIDVWqqk
+ * sim4: https://youtu.be/p7oMrNavxsY
 
 ## usage
 * run
