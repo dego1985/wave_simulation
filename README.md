@@ -7,6 +7,24 @@ video:
  * sim3: https://youtu.be/MGHZIDVWqqk
  * sim4: https://youtu.be/p7oMrNavxsY
 
+# virtualenv
+```
+pyenv install 3.9.18
+pyenv virtualenv 3.9.18 sim
+pyenv local sim
+pip install -r requirements.txt
+```
+
+# install pycuda
+```
+mkdir repos
+cd repos
+git clone https://github.com/inducer/pycuda.git
+cd pycuda
+python configure.py --cuda-enable-gl
+sudo make install
+```
+
 ## usage
 * run
 ```code
@@ -20,17 +38,6 @@ video:
 ```code
 > ./run.py -f 0
 ```
-
-## env
-* python libraries -> requirements.txt
-  * glumpy
-  * pycuda
-  * torch
-  * etc...
-* packages
-  * nvidia-driver-450
-  * cuda-cuda-toolkit-10-2
-  * ffmpeg (for recording)
 
 ## reference
 * [pytorch-glumpy.py](https://gist.github.com/victor-shepardson/5b3d3087dc2b4817b9bffdb8e87a57c4)
