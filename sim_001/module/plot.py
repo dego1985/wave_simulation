@@ -157,9 +157,9 @@ class plot3d():
         window = self.window
 
         # set title
-        window.set_title(str(
-            window.fps).encode("ascii"))
-
+        # window.set_title(str(window.fps).encode("ascii"))
+        window.set_title(f"{window.fps:0.2f}")
+        # tr(binascii.hexlify(header), 'utf-8')
         self.update_VertexBuffer(dt)
 
         # Filled cube

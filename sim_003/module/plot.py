@@ -173,8 +173,8 @@ class plot3d():
         window = self.window
 
         # set title
-        window.set_title(str(
-            window.fps).encode("ascii"))
+        window.set_title(f"{window.fps:0.2f}")
+
 
         self.update_VertexBuffer(dt)
 

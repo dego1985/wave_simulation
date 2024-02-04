@@ -111,8 +111,8 @@ class wave():
         return self.plot_particle(z)
     
     def make_ele(self, r=100, q=1):
-        p = np.zeros((2 * r + 1, 2 * r + 1), np.float)
-        mask = np.zeros((2 * r + 1, 2 * r + 1), np.float)
+        p = np.zeros((2 * r + 1, 2 * r + 1), np.float32)
+        mask = np.zeros((2 * r + 1, 2 * r + 1), np.float32)
         x = np.arange(-r,r+1,dtype=np.float32)
         y = np.arange(-r,r+1,dtype=np.float32)
         x, y = np.meshgrid(x, y)
